@@ -10,13 +10,23 @@
 using namespace std;
 
 int main() {
-  birthday cake
+
+  cout << "          , , , , ,         " << endl;
+  cout << "       __ ! ! ! ! ! __      " << endl; 
+  cout << "      { ~ * ~ * ~ * ~ }     " << endl;
+  cout << " _____{ * ~ * ~ * ~ * }_____" << endl;
+  cout << "' _ _ _ _ _ _ _ _ _ _ _ _ _ '" << endl;
+  cout << endl;
+
   return 0;
 }
 // ======================================================================
 /* OUTPUT:
-Enter your first initial: A
-Enter your last initial: B
-Your first initial is A and your last initial is B.
-@aberhost0 ➜ /workspaces/Practice (main) $   */
+          , , , , ,         
+       __ ! ! ! ! ! __      
+      { ~ * ~ * ~ * ~ }     
+ _____{ * ~ * ~ * ~ * }_____
+' _ _ _ _ _ _ _ _ _ _ _ _ _ '
+
+@aberhost0 ➜ /workspaces/CS1A/chapterOne (main) $   */
 // ======================================================================
