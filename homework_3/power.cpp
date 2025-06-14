@@ -26,7 +26,8 @@ int main() {
    square = sqrt(base);
 
    cout << base << " to the power of " << exponent << " equals " << power << "." << endl;
-   cout << setprecision(3) << "The square root of " << base << " equals " << square << "." << endl;
+   cout << fixed << setprecision(2); 
+   cout << "The square root of " << base << " equals " << square << "." << endl;
 
 
 return 0;
@@ -36,6 +37,6 @@ return 0;
 Enter the base: 3
 Enter the exponent: 2
 3 to the power of 2 equals 9.
-The square root of 3 equals 1.73.
+The square root of 3.00 equals 1.73.
 @aberhost0 ➜ /workspaces/CS1A/homework_3 (main) $ */
 // ======================================================================
