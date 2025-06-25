@@ -4,12 +4,45 @@
 using namespace std;
 
 int main() {
-    int num = 0;
-lab1b
-    cout << "E"
+    int num1 = 4;
+    int num2 = 3;
+    int max = 0;
+
+    // ternary operator has 3 operands
+    max = (num1 > num2) ? num1 : num2;
+
+    // if (num1 > num2) {
+    //     highest = num1;
+    // }
+    // else {
+    //     highest = num2;
+    // }
+    cout << "The highest is " << max << ".\n";
 
     return 0;
 }
+
+// ------------------------------------------------------------------------
+
+/* ASCII with IF
+int main() {
+    char key = '\n0'; // null character
+
+    cout << "Enter an alphabetic charcter: ";
+    cin >> key;
+
+    if (key >= 65 && key <= 90) {
+        cout << "You entered an uppercase alphabetic character.\n";
+    }
+    else if (key >= 90 && key <= 122) {
+        cout << "You entered a lowercase alphabetic character.\n";
+    }
+    else {
+        cout << "You did not enter an alphabetic character.\n";
+    }
+
+    return 0;
+} */
 
 // ------------------------------------------------------------------------
 
