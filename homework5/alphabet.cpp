@@ -15,7 +15,7 @@ int main() {
    cout << "Enter a keyboard character and press Enter: \n";
    cin >> key;
 
-   if(toupper(key) >= 'A' && toupper(key) <= 'Z') {
+   if(toupper(key) >= 65 && toupper(key) <= 90) {
       cout << "The character is an alphabetic character.\n";
    }
    else {
@@ -27,7 +27,7 @@ return 0;
 // ======================================================================
 /* OUTPUT:
 Enter a keyboard character and press Enter: 
-a
+z
 The character is an alphabetic character.
 @aberhost0 ➜ /workspaces/CS1A/homework5 (main) $ ./a.out
 Enter a keyboard character and press Enter: 
