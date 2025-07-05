@@ -2,11 +2,11 @@
 #include <fstream>
 using namespace std;
 
-int main() {
+// int main() {
 
 
-    return 0;
-}
+//     return 0;
+// }
 
 
 /*#include <fstream>                         // include file stream 
@@ -25,7 +25,8 @@ int main() {
 }*/
 
 
-/*int main() {
+
+int main() {
     char key;
     char letter = 'e';
     int total = 0;
@@ -42,7 +43,7 @@ int main() {
     cout << "There are " << total << " e's " << "in this message." << endl;
 
     return 0;
-} */
+} 
 
 
 /*int main() {
