@@ -12,8 +12,12 @@ using namespace std;
 // === main =================================================================
 int main() { 
     
+    int studentID;
+    string studentName;
     Student student1;
     Student student2;
+
+    Student.setID(studentID);
 
    return 0;
 }               // end of main
