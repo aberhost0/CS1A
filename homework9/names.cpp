@@ -26,23 +26,27 @@ int main() {
     cout << "Enter first name: ";
     cin.get(firstName, SIZE);
 
-    cout << "\nEnter last name: ";
+    cin.ignore();
+
+    cout << "Enter last name: ";
     cin.get(lastName, SIZE);
+
+    cin.ignore();
 
     strcpy(fullName, firstName);
     strcat(fullName, " ");
     strcat(fullName, lastName);
 
-    cout << "How is your love life " << fullName << "\n\n";
+    cout << "\nHow is your love life " << fullName << "?\n\n";
 
-    cout << "By the way, your  full name has " << strlen(lastName) << " characters.\n\n\n";
+    cout << "By the way, your full name has " << strlen(lastName) << " characters.\n\n\n";
 
     // Display one name using string class
 
     cout << "Enter your friend's full name: ";
-    cin >> friendsName;
+    getline(cin, friendsName);
 
-    cout << "How is " << friendsName << "'s love life " << firstName << "\n\n";
+    cout << "\nHow is " << friendsName << "'s love life " << firstName << "?\n\n";
 
     cout << "By the way, your friend's full name has " << friendsName.length() << " characters.\n\n";
 
@@ -60,5 +64,19 @@ int main() {
 
 // ==========================================================================
 /* OUTPUT:
-*/
+Enter first name: Alyssa
+Enter last name: Berhost
+
+How is your love life Alyssa Berhost?
+
+By the way, your full name has 7 characters.
+
+
+Enter your friend's full name: Barack Obama 
+
+How is Barack Obama's love life Alyssa?
+
+By the way, your friend's full name has 12 characters.
+
+@aberhost0 ➜ /workspaces/CS1A/homework9 (main) $*/
 // ==========================================================================
