@@ -22,21 +22,36 @@ Student::~Student() {}
 
 // === setID method =========================================================
 void Student::setID(int idNum, string studentName) {
+
+    this->idNum = idNum;
 }
 // ==========================================================================
 
 // === setName method =======================================================
-void Student::setName(string studentName);
+void Student::setName(string studentName) {
+    
+    this->studentName = studentName;
+}
 // ==========================================================================
 
 // === getID method =========================================================
-int Student::getID();
+int Student::getID() {
+
+    return idNum;
+}
 // ==========================================================================
 
 // === getName ==============================================================
-string Student::getName();
+string Student::getName() {
+
+    return studentName;
+}
 // ==========================================================================
 
 // === displayStudent =======================================================
-void Student::displayStudent();
+void Student::displayStudent() {
+
+    cout << "ID:\t" << idNum << endl
+         << "Name:\t" << studentName << endl << endl;
+}
 // ==========================================================================

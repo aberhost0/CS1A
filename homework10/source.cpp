@@ -12,12 +12,17 @@ using namespace std;
 // === main =================================================================
 int main() { 
     
-    int studentID;
-    string studentName;
+    int idNum = 0;
+    string studentName = 0;
+
     Student student1;
     Student student2;
 
-    Student.setID(studentID);
+    cout << "Here is student #1: \n";
+    student1.displayStudent();
+
+    cout << "Here is student #2:\n";
+    student2.displayStudent();
 
    return 0;
 }               // end of main
