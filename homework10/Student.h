@@ -1,3 +1,5 @@
+// class Student
+
 #include <iostream>
 #include <string>
 using namespace std;
@@ -12,7 +14,7 @@ public:
     Student();
     Student(int idNum, string studentName);
     ~Student();
-    void setID(int idNum, string studentName);
+    void setID(int idNum);
     void setName(string studentName);
     int getID();
     string getName();

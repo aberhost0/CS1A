@@ -1,3 +1,5 @@
+// Student.cpp
+
 #include "Student.h"
 
 // === Default Constructor ==================================================
@@ -21,7 +23,7 @@ Student::~Student() {}
 // ==========================================================================
 
 // === setID method =========================================================
-void Student::setID(int idNum, string studentName) {
+void Student::setID(int idNum) {
 
     this->idNum = idNum;
 }
@@ -52,6 +54,7 @@ string Student::getName() {
 void Student::displayStudent() {
 
     cout << "ID:\t" << idNum << endl
-         << "Name:\t" << studentName << endl << endl;
+         << "Name:\t" << studentName;
+    cout << endl << endl << endl;
 }
 // ==========================================================================
